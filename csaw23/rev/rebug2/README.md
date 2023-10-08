@@ -52,6 +52,7 @@ void printbinchar(char param_1)
 ```
 
 for文が8回よばれて、何か色々計算してる
+
 最後にxoring関数が呼ばれている
 ```C
 undefined8 xoring(long param_1)
@@ -89,8 +90,11 @@ undefined8 xoring(long param_1)
 ```
 
 始め引数を2つのローカル配列にコピーをして、4回ループしている
+
 もし、両方配列のあるインデックスの値が等しければflag[index_flag]に0を、そうでないなら1を入れている
+
 その後flag_indexをインクリメントしている
+
 flagがこの中で宣言されてないのに使われてるからグローバル変数かもしれない
 
 一連の動作を再現するためにgdbを使って動的解析をしてみる
@@ -206,6 +210,7 @@ Breakpoint 1 at 0x55555555531e
 ```
 
 startiでgdbを始める。startだといけるところまで実行しちゃうからstartiコマンドを使ってelaboration phaseの開始点で実行を停止する（runコマンドと同じ動作）。
+
 mainの終わりギリギリにbreak pointを設定
 ```bash
 gdb-peda$ c
@@ -258,6 +263,7 @@ Breakpoint 1, 0x000055555555531e in main ()
 ```
 
 スタックには入力文字列BgApYb7nCswD（前問でも使った12文字の適当な文字）が入ってるけど、今はグローバル変数flagの中身がみたい（スタックにはない？）
+
 x(inspect)と/s(string)を&flagに対してするとflagが見れる
 ```bash
 gdb-peda$ x/s &flag
