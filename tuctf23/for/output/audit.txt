@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Dec  2 00:03:44 2023
+Invocation: foremost layers.jpg 
+Output directory: /home/kali/ctf/tuctf23/for/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: layers.jpg
+Start: Sat Dec  2 00:03:44 2023
+Length: 50 KB (51544 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sat Dec  2 00:03:44 2023
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sat Dec  2 00:03:44 2023
