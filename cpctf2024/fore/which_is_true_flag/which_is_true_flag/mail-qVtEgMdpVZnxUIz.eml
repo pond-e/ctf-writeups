@@ -1,0 +1,110 @@
+Delivered-To: [deprecated]
+Received: by [deprecated] with SMTP;
+        Wed, 10 Apr 2024 15:29:06 -0700
+Return-Path: flagProvider@trap.jp
+Received: from flagProvider@trap.jp ([195.240.102.87])
+        for <[deprecated]>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Apr 2024 15:29:06 -0700
+Date: Wed, 10 Apr 2024 15:29:06 +0000
+Message-ID: <1711280279.71604854bdb2@trap.jp>
+From: "FlagProvider" <flagProvider@trap.jp>
+Precedence: list
+To: [deprecated]
+Subject: this is Flag
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="CaZbzhBcFLIbRm4oHyaTGmRS10UXycIAgvlMBxvY"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format
+
+--CaZbzhBcFLIbRm4oHyaTGmRS10UXycIAgvlMBxvY
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+クーポンのご提供
+
+いつも当店をご利用いただきありがとうございます。以下のクーポンコードをご利用いただけます。
+
+クーポンID: CPCTF{MRisJmojmrOtLXxAfojl}
+
+このクーポンコードをお支払い時にご提示いただくと、割引が適用されます。有効期限は2024年12月31日までです。
+
+何かご質問がございましたら、お気軽にお問い合わせください。
+
+--CaZbzhBcFLIbRm4oHyaTGmRS10UXycIAgvlMBxvY
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>クーポンのご提供</title>
+<style>
+/* メールのスタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+/* クーポンのスタイル */
+.coupon {
+    border: 2px dashed #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.coupon p {
+    margin: 0;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h2>クーポンのご提供</h2>
+    </div>
+    <div class="content">
+        <p>いつも当店をご利用いただきありがとうございます。以下のクーポンコードをご利用いただけます。</p>
+        <div class="coupon">
+            <p>クーポンID: <strong>CPCTF{MRisJmojmrOtLXxAfojl}</strong></p>
+        </div>
+        <p>このクーポンコードをお支払い時にご提示いただくと、割引が適用されます。有効期限は2024年12月31日までです。</p>
+    </div>
+    <div class="footer">
+        <p>何かご質問がございましたら、お気軽にお問い合わせください。</p>
+    </div>
+</div>
+</body>
+</html>
+
+--CaZbzhBcFLIbRm4oHyaTGmRS10UXycIAgvlMBxvY--

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ヨムカク</title>
+</head>
+<body>
+    <h1>ヨムカク</h1>
+    <p>お気に入りの小説を探してみましょう。</p>
+{% for c in g %}
+<p><a href="/novel?name={{ c.id }}">{{ c.name }}</a></p>
+{% endfor %}
+</body>
+</html>
